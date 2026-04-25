@@ -1,0 +1,24 @@
+.titulo h1{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    left: 20%;
+    white-space:nowrap;
+}
+.titulo{
+    background-color:aliceblue;
+    margin: 0%;
+    padding: 0%;
+}
+#Mapa{
+    left:auto;
+    width: 80%;
+    height:600px;
+    position:absolute;
+    margin: 120px;
+    justify-content: center;
+}
+
+.body{
+    background-color: rgb(199, 142, 68);
+}
