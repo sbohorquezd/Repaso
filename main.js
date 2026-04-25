@@ -38,6 +38,7 @@ function activarClick() {
 
     mapInstance.off('click');
 
+
     mapInstance.on('click', function (e) {
 
         var lat = e.lngLat.lat;
@@ -63,18 +64,3 @@ function colorRandom() {
 }
 
 
-function borrarPuntos() {
-
-    Plotly.react("Mapa", [{
-        type: "scattermapbox",
-        mode: "markers",
-        lat: [],
-        lon: []
-    }], layout).then(function (gd) {
-
-   
-        mapInstance = gd._fullLayout.mapbox._subplot.map;
-
-        activarClick(); 
-    });
-}
